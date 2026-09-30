@@ -1,5 +1,5 @@
 const CONFIG = { taslak: true };
-const PHOTO = "img/zeynep-sarikaya.jpg";
+const PHOTO = "zeynep-sarikaya.jpg";
 document.querySelectorAll("img[data-me]").forEach(i => i.src = PHOTO);
 const CATS = {
   genel:{ad:"Tanışma",cls:"cat-genel",ic:"i-hi"},
